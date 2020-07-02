@@ -30,13 +30,15 @@ function loadList(array) {
     array.forEach(function(item){
         addToDo(item.name, item.id, item.done, item.trash);
     });
+}
 
 //clear the local storage
 clear.addEventListener("click", function(){
     localStorage.clear();
     location.reload();
 });
-}
+
+
 //show present Date
 const options = {weekday:"long", month:"short", day:"numeric"};
 const today = new Date();
