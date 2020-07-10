@@ -58,6 +58,7 @@ $(document).ready(function(){
                 <img class="thumbnail avatar" src="${user.avatar_url}">
                 <a target="_blank" class="btn btn-danger btn-block" href="${user.html_url}">View Profile</a>
                 
+                
                 </div>
                 <div class="col-md-9">
                 <span class="label label-danger">Public Repos: ${user.public_repos}</span>
