@@ -1,0 +1,53 @@
+#container{
+    width: 900px;
+    height: 450px;
+    margin: 80px;
+    border: 2px solid rgb(125, 181, 66);
+}
+
+h2 {
+    color: rgb(125, 181, 66);   
+    text-align: center;   
+    
+        }
+#projects {
+  width: 650px;
+  height: 250px;
+  margin: 0px auto;
+
+}
+
+ol li {
+  border: 1px dotted black;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 5px;
+
+}
+
+ol li:hover {
+    background: #e9e9e9;
+}
+
+#main {
+    background: #6eb7d6;
+}
+
+#btnAddProject {
+    margin-left: 680px;
+    margin-bottom: 20px;
+    background: #6eb7d6;
+}
+#btnAddTask {
+    margin-left: 690px;
+    margin-top: 20px;
+    background: #6eb7d6;
+}
+
+#task-dialog{
+    background: lightblue;
+}
+#project-dialog{
+    background: lightblue;
+
+}
